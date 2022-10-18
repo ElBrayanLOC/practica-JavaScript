@@ -1,7 +1,7 @@
-:invalid {
+/*:invalid {
     background-color: #FFD4D4;
     border: 1px solid maroon;
-}
+}*/
 
 form.invalid input:invalid, form.invalid select:invalid,
 form.invalid input.invalid, form.invalid select.invalid {
@@ -11,4 +11,35 @@ form.invalid input.invalid, form.invalid select.invalid {
 
 input:required, select:required {
     background-color: lightyellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+#fieldsetborder {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    margin: 1%;
+}
+
+body {
+    background-color: rgba(131, 131, 57, 0.288);
+}
+
+form {
+    background-color: rgba(211, 211, 28, 0.288);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#submit {
+    margin: 1%;
+    background-color: aqua;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#submitSave {
+    margin: 1%;
+    background-color: aquamarine;
+    border: 1px solid rgb(0, 0, 0);
 }

@@ -19,7 +19,7 @@
 <body>
     <form name="order" method="post" action="/submit">
         <h1>Order Form</h1>
-        <fieldset>
+        <fieldset id="fieldsetborder">
             <legend>Contact Details</legend>
             <ul>
                 <li>
@@ -79,7 +79,7 @@
                 </li>
             </ul>
         </fieldset>
-        <fieldset>
+        <fieldset id="fieldsetborder">
             <legend>Login Details</legend>
             <ul>
                 <li>
@@ -96,7 +96,7 @@
                 </li>
             </ul>
         </fieldset>
-        <fieldset>
+        <fieldset id="fieldsetborder">
             <legend>Order Details</legend>
             <table>
                 <thead>
@@ -165,7 +165,7 @@
                 </tfoot>
             </table>
         </fieldset>
-        <fieldset>
+        <fieldset id="fieldsetborder">
             <legend>Payment Details</legend>
             <ul>
                 <li>
@@ -184,7 +184,6 @@
                 <li>
                     <label class="required">
                         <div>Expiry Date</div>
-                        <!-- <input type="month" name="card_expiry" maxlength="7" placeholder="YYYY-MM" required value="2018-09"> -->
                         <input type="text" id="datepicker" name="card_expiry" maxlength="7" placeholder="YYYY-MM"
                             required value="2018-09">
                     </label>
@@ -200,8 +199,8 @@
             </ul>
         </fieldset>
         <div class="buttons">
-            <input type="submit" value="Submit Order">
-            <input type="submit" id="saveOrder" value="Save Order" formnovalidate formaction="/save">
+            <input id="submit" type="submit" value="Submit Order">
+            <input id="submitSave" type="submit" id="saveOrder" value="Save Order" formnovalidate formaction="/save">
         </div>
 
     </form>
