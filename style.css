@@ -1,7 +1,7 @@
-/*:invalid {
+:invalid {
     background-color: #FFD4D4;
     border: 1px solid maroon;
-}*/
+}
 
 form.invalid input:invalid, form.invalid select:invalid,
 form.invalid input.invalid, form.invalid select.invalid {
